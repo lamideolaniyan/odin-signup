@@ -1,0 +1,93 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: 'Roboto Mono', monospace;
+}
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	font-size: 1.6rem;
+}
+
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+@font-face {
+	font-family: NorseBold;
+	src: url(./Norse-Bold.otf);
+}
+
+.main {
+	display: flex;
+	height: 100vh;
+}
+
+.header {
+	width: 35%;
+	background-image: url(./halie-west-25xggax4bSA-unsplash.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	padding-top: 20rem;
+}
+
+.header__banner {
+	height: 20rem;
+	background-color: rgba(0, 0, 0, 0.356);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	padding: 1.5rem 0;
+}
+
+.header__banner--img {
+	height: 100%;
+}
+.header__banner--text {
+	text-transform: uppercase;
+	font-size: 10rem;
+	font-family: NorseBold;
+}
+
+.form-section {
+	width: 65%;
+	background-color: greenyellow;
+	height: 100%;
+}
