@@ -173,7 +173,7 @@ h6 {
 }
 
 .form-list__item input:invalid {
-	outline: 1px solid red;
+	/* outline: 1px solid red; */
 }
 
 .form__button {
