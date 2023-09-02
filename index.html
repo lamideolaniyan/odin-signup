@@ -48,6 +48,7 @@
 						<li class="form-list__item">
 							<label for="first_name">First name</label>
 							<input type="text" id="first_name" name="first_name" required />
+							<span class="validation__message">&nbsp;</span>
 						</li>
 						<li class="form-list__item">
 							<label for="last_name">last name</label>
@@ -62,6 +63,7 @@
 								placeholder="abc@example.com"
 								required
 							/>
+							<span class="validation__message">&nbsp;</span>
 						</li>
 						<li class="form-list__item">
 							<label for="phone">phone number</label>
@@ -71,17 +73,21 @@
 								name="phone"
 								pattern="[0-9]{11}"
 								placeholder="e.g. 08130985034"
+								required
 							/>
+							<span class="validation__message">&nbsp;</span>
 						</li>
 						<li class="form-list__item">
 							<label for="password">Password</label>
 							<input type="password" id="password" name="password" required />
+							<span class="validation__message">&nbsp;</span>
 						</li>
 						<!-- </div> <div class="flex-right"> -->
 
 						<li class="form-list__item">
 							<label for="cpwd">Confirm password</label>
 							<input type="password" id="cpwd" name="cpwd" required />
+							<span class="validation__message">&nbsp;</span>
 						</li>
 						<!-- </div> -->
 					</ul>
